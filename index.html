@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshit - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="left">
+                Rakshit's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">About</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                <div>Hi, My name is<span class="purple"> Rakshit</span></div>
+                <div>and I am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="service" class="secondSection">
+            <div class="leftSide">
+                <img src="images/about_me.png" alt="">
+            </div>
+            <div class="rightSide">
+                <h2 class="heading">Web Designer & Web Developer</h2>
+                <div class="ul-flex">
+
+                    <div class="ul-Left">
+                        <ul>
+                            <li class="ul-element"><strong class="hcolor">Birthday:</strong><span> 9 July 2003</span>
+                            </li>
+                            <li class="ul-element"><strong class="hcolor">Website:</strong><span>
+                                    www.rakshitportfolio.com</span></li>
+                            <li class="ul-element"><strong class="hcolor">Phone:</strong><span> +91 635****603</span>
+                            </li>
+                            <li class="ul-element"><strong class="hcolor">City:</strong><span> Ahmedabad,
+                                    Gujarat</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="ul-Right">
+                        <ul>
+                            <li class="ul-element"><strong class="hcolor">Age:</strong><span> 21</span></li>
+                            <li class="ul-element"><strong class="hcolor">Degree:</strong><span>
+                                    Computer Engineering</span></li>
+                            <li class="ul-element"><strong class="hcolor">Email ID:</strong><span>
+                                    raxit.shilu@gmail.com</span>
+                            </li>
+                            <li class="ul-element"><strong class="hcolor">Freelance:</strong><span> Available</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="projects">
+            <div class="project">
+                <img src="images/weather.png" alt="Project 1">
+                <h2>Weather Application</h2>
+                <p>Weather Application is API based web application that provides weather information for specific city of any country. I have used HTML, Bootstrap and JavaScript for the responsive frontend and all the weather specific data are coming from API called RapidAPI.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/news.png" alt="Project 2">
+                <h2>News Application</h2>
+                <p>News Application is web application where you can find all the real time news on Trending topics and you can also search news for specific topic.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/notes.jpg" alt="Project 3">
+                <h2>Notes App</h2>
+                <p>This notes app is a digital application designed to help users create, store textual information in a convenient and accessible manner. It allowes users to jot down ideas, reminders, to-do lists, and any other form of text-based content.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/calculator.jpg" alt="Project 4">
+                <h2>Calculator</h2>
+                <p>This calculator website is a web-based platform that offers users a convenient and accessible way to perform various mathematical calculations.These websites provide a virtual calculator interface that can be accessed through a web browser.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+    </main>
+
+
+    <hr>
+
+    <footer>
+        <div id="footer">
+
+            <div class="container">
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://in.linkedin.com/">Linkedin</a></li>
+                    <li><a href="https://github.com/" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169 www.rakshitportfolio.com | All right reserved
+        </div>
+
+    </footer>
+
+
+
+    <!-- Type JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {             // id--> #element
+            strings: ['Web Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
