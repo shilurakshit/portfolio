@@ -59,7 +59,8 @@ nav ul li a:hover {
 .leftSection .buttons{
     margin-top: 10px;
 }
-.leftSection .btn{
+.leftSection a{
+    display: inline-block;
     padding: 12px;
     background-color: rgb(173, 105, 235);
     color: white;
@@ -69,8 +70,9 @@ nav ul li a:hover {
     margin-top: 15px;
     font-size: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
-.leftSection .btn:hover{
+.leftSection a:hover{
     background-color: rgb(109, 14, 130);
 }
 .rightSection img {
